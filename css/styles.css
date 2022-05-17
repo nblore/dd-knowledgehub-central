@@ -1,0 +1,25 @@
+h1 {
+    color: blue;
+    font-size: 100px;
+    background-color: purple;
+}
+
+body {
+    background-color: red;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    color: #4bdd4d;
+}
+
+#tag1 {
+    color: yellow;
+}
+
+#img1 {
+    width: 20%;
+}
