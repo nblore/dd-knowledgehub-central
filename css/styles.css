@@ -1,25 +1,37 @@
-h1 {
-    color: blue;
-    font-size: 100px;
-    background-color: purple;
-}
-
 body {
-    background-color: red;
+  margin: 0
 }
 
-h3 {
-    text-decoration: underline;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
-p {
-    color: #4bdd4d;
+li a {
+  display: block;
+  color: #000;
+  padding: 32px 16px;
+  text-decoration: none;
 }
 
-#tag1 {
-    color: yellow;
+li a.active {
+  background-color: #04AA6D;
+  color: white;
 }
 
-#img1 {
-    width: 20%;
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+#main {
+  margin-left:25%;
+  padding:1px 16px;
+  height:1000px;
 }
