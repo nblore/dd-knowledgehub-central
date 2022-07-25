@@ -2,17 +2,19 @@ body {
   margin: 0;
   font-family: 'SF Pro Display', sans-serif;
 }
+/* UL is just an unordered list. This is the CSS to make it into a nav bar */
 
-ul {
-  list-style-type: none;
+ul.navbar{
+  list-style-type: none; /* Removes the bullet points */
   margin: 0;
   padding: 0;
-  width: 25%;
+  width: 5%;
   background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
+  position: fixed; /* Fixes the nav bar to the side of the page */
+  height: 100%; /* Make the nav bar go down the entire page, not just to the end of the list */
+  min-width: 80px; /* Sets a minimum width so that when the page is re sized the bar will not shrink smaller than this */
 }
+
 
 li a {
   display: block;
@@ -32,7 +34,12 @@ li a:hover:not(.active) {
 }
 
 #main {
-  margin-left:25%;
+  /*margin-left: 120px;*/
+  margin-left: 5%; /* This doesn't work when re sized */
   padding:1px 16px;
   height:1000px;
+}
+
+#instructions {
+ color:red
 }
